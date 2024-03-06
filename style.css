@@ -16,26 +16,69 @@
     font-style: normal;
 }
 
+.sixtyfour-title {
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+  }
+
 html {
-    background-color: #3b3939;
+    background-color: #F4F7FB;
     font-family: Gayathri, sans-serif;
     font-weight: 100;
     font-style: normal;
-    color: #d9d6d6;
-    font-size: 20px;
+    color: #346eb0;
+    font-size: 30px;
     
 }
 
+.input {
+    align-items: baseline;
+}
+
+.textbox {
+    width: 10em;
+    height: 1.5em;
+    /* padding: 0.5em, 0.3em, 0.5em, 0.3em; */
+    border: 2px solid #346eb0;
+    border-radius: 4px;
+    font-family: "Gayathri", sans-serif;
+    color: #346eb0;
+    font-size: 27px;
+}
+
 #title {
-    font-size: 60px;
+    font-family: Sixtyfour, sans-serif;
+    font-size: 50px;
+    margin-bottom: 1em;
 }
 
 #coolify {
-    background-color: rgb(179, 94, 34);
-    font-size: 16px;
-    border-radius: 4px;
+    background-color: #2B8B91;
+    color:#F4F7FB;
+    font-size: 30px;
+    width: 8em;
+    height: 2em;
+    font-family: Sixtyfour, sans-serif;;
+    border-radius: 8px;
     border: none;
+    transition-duration: 0.4s;
+    padding: 20px, 40px;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
 
+#coolify:hover {
+    background-color: #55b0b7;
+}
+
+#coolname {
+    font-size: 35px;
+    font-weight: 700;
 }
 
 .site {
