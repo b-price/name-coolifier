@@ -1,0 +1,45 @@
+.gayathri-thin {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.gayathri-regular {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gayathri-bold {
+    font-family: "Gayathri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    background-color: #3b3939;
+    font-family: Gayathri, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #d9d6d6;
+    font-size: 20px;
+    
+}
+
+#title {
+    font-size: 60px;
+}
+
+#coolify {
+    background-color: rgb(179, 94, 34);
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.site {
+    padding: auto;
+    margin: auto;
+    width: 66%;
+}
