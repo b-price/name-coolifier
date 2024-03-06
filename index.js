@@ -57,3 +57,10 @@ function coolify(){
     document.getElementById("coolname").innerHTML = "Cool Name: " + coolName
 }
 
+var input = document.getElementById("lname")
+input.addEventListener("keypress", function(event){
+    if (event.key === "Enter"){
+        event.preventDefault()
+        document.getElementById("coolify").click()
+    }
+})
