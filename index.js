@@ -64,3 +64,16 @@ input.addEventListener("keypress", function(event){
         document.getElementById("coolify").click()
     }
 })
+
+function toggle(){
+    theme = document.getElementById("style")
+    text = document.getElementById("toggle")
+    if (theme.getAttribute("href") == "style.css"){
+        theme.setAttribute("href", "dark.css")
+        text.setAttribute("value", "Light")
+    } else {
+        theme.setAttribute("href", "style.css")
+        text.setAttribute("value", "Dark")
+    }
+
+}
